@@ -1,0 +1,91 @@
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3%;
+    background-color:rgb(0, 0, 0);
+    padding-right: 20px;
+}
+.Logo{
+    margin-right: 61% !important;
+}
+a{
+    color:azure;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(148, 170, 170)
+}
+.Home{
+    background-image: url("bg2.jpeg");
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+}
+.Text{
+    width: 50%;
+    margin: 15% 10% 10% 3%;
+    display: inline-block;
+}
+
+
+.Mypic{
+    width: 80%;
+    margin: 10% 10% 20% 10%;
+    width: 50%;
+}
+.polaroid{
+    width: 100%;
+    background-color: grey;
+    background-color: white;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 2px 2px 45px 2px;
+}
+.item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+        
+}
+.about{
+    background-color: aliceblue;
+    padding: 3% 10% 10% 10%;
+}
+.skills{
+    background-color: rgb(182, 199, 213);
+    padding: 3% 0% 3% 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: center;
+}
+.education{
+    padding: 5% 10% 10% 3%;
+    background-color: rgb(243, 255, 255);
+}
+.Educationlink{
+    color: black;
+}
+.Educationlink :hover{
+    color: blanchedalmond;
+}
+
+.contact{
+    background-color: aliceblue;
+    padding: 5% 10% 3% 3%;
+}
+
+
+main{
+    
+}
+
+    

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 175, 175);
+}
+
+#parent1
+{
+    position: static;
+    border: 2px solid red;
+    width: 500px;
+    height: 250px;
+    top: 1000000000px;
+
+}
+
+#child1{
+    position: absolute;
+    border: 1px solid green;
+    top: 20px;
+    right: 100px;
+    bottom: 300px;
+    
+}
